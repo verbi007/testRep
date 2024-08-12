@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite">
+    <test name="Test One">
+        <parameter name="productId" value="120"/>
+        <parameter name="title" value='Сыр "Сулугуни"'/>
+        <classes>
+            <class name="testng.ProductsTestTestNG" />
+        </classes>
+    </test>
+
+    <test name="Test regression">
+        <groups>
+            <run>
+                <include name="productsRegression" />
+            </run>
+        </groups>
+        <classes>
+            <class
+                    name="testng.ProductsTestTestNG" />
+        </classes>
+    </test>
+</suite>

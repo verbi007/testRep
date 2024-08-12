@@ -1,0 +1,18 @@
+{
+  "Lines": [
+
+    {
+      "GreenPrice": 0,
+      "Id_Tov": "120"
+    }
+  ],
+  "Number": "{{number}}",
+  "Service": "1",
+  "Shops": [
+
+    {
+      "shop_no": "5005"
+    }
+  ],
+  "isOnline": 1
+}
